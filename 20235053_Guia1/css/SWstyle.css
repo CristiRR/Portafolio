@@ -1,0 +1,61 @@
+body{
+    font-family: "aptos";
+    background-color: black;
+    color: white;
+    line-height: 1.7;
+}
+
+.main-title{
+    text-align: center;
+    margin-top: 50px; 
+    font-size: 2.7em; 
+}
+
+.subtitle1{
+    text-align: center;
+}
+
+.subtitlec{
+    text-align: center;
+}
+
+.subtitler{
+    text-align: center;
+}
+
+.otros{
+    text-align: center;
+}
+
+.otrosd {
+   
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.otrosd th, .otrosd td {
+    border: 1px solid ,white;
+    padding: 10px;
+    text-align: center;
+}
+
+.Review{
+    text-align: center;
+}
+
+.poster-image {
+    max-width: 600px;
+    display:  block;
+    margin:0 auto;
+}
+
+.random-image{
+    width: 80%;
+    display:  block;
+    margin:0 auto;
+}
+.intro-text{
+    text-align: center;
+    margin: 5%;
+}
