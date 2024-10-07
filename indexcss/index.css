@@ -1,9 +1,145 @@
 
 
 body{
-    background-image: url("../20235053_Guia4/imgC/cakebatter.jpg");
-    background-position: center center;
-    background-repeat:no-repeat ;
-    background-size: cover;
+  background-color: rgb(156, 246, 156);
 
 }
+
+h2{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Century Gothic', sans-serif;
+}
+header {
+    background-color: rgb(220, 160, 247);
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+header nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+header nav ul li {
+    position: relative;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color:   rgb(142, 129, 254);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 30px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+}
+header nav ul li a:hover {
+    background-color: rgb(254, 129, 149);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+
+    header nav ul li a {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    header nav ul li ul {
+        position: static;
+        width: 100%;
+    }
+
+    header nav ul li ul li {
+        padding: 5px 0;
+    }
+    header nav ul li ul li a {
+        font-size: 16px;
+    }
+}
+
+/*mediana*/
+@media (min-width: 769px) and (max-width: 1024px) {
+    header nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header nav ul li {
+        margin: 10px;
+    }
+
+    header nav ul li a {
+        padding: 15px 25px;
+        font-size: 20px;
+    }
+
+    header nav ul li ul {
+        position: absolute;
+    }
+
+    header nav ul li ul li {
+        padding: 10px 15px;
+    }
+
+    header nav ul li ul li a {
+        font-size: 18px;
+    }
+}
+
+/*grandes*/
+@media (min-width: 1025px) {
+    header nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    header nav ul li {
+        margin: 0 15px;
+    }
+
+    header nav ul li a {
+        padding: 20px 30px;
+        font-size: 20px;
+    }
+
+    header nav ul li ul {
+        position: absolute;
+    }
+
+    header nav ul li ul li {
+        padding: 10px 20px;
+    }
+
+    header nav ul li ul li a {
+        font-size: 18px;
+    }
+}
+
